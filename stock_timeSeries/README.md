@@ -1,5 +1,6 @@
-[Additive Model Prediction](##In _additivesModelPrediction.py_, I used `Pynance` to retrieve stock data and `Prophet` for future 2 years prediction.)
+[Additive Model Prediction](#additivesModelPrediction)
 
+<a name='additivesModelPrediction')</a>
 ## In _additivesModelPrediction.py_, I used `Pynance` to retrieve stock data and `Prophet` for future 2 years prediction.
 * Key Insights include:
   1. Predicting interested ticker potential market cap:
