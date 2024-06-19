@@ -1,4 +1,7 @@
-## In `additivesModelPrediction.py`, I used `Pynance` to retrieve stock data and `Prophet` for future 2 years prediction.
+## In _additivesModelPrediction.py_, I used `Pynance` to retrieve stock data and `Prophet` for future 2 years prediction.
 * Key Insights include:
   1. Predicting interested ticker potential market cap:
-     ![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/41e24340-b8ec-4b2f-ba58-9118933b5e5e/b0f6623a-f62b-4d2b-ac0f-0a22efcfe238/Untitled.png)
+     <img width="799" alt="image" src="https://github.com/Pinghsuanlin/PythonScopedSkills/assets/96319356/8b110982-2222-43f3-8cb3-79ec37638a16">
+  2. Predicting trend and component in weekly and yearly timestamp as such:
+     <img width="393" alt="image" src="https://github.com/Pinghsuanlin/PythonScopedSkills/assets/96319356/c288a35d-3bb7-4097-b5a5-ba0981950624">
+
