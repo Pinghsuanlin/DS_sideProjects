@@ -4,7 +4,7 @@
 * [ARIMA Model Prediction](#ARIMAModelPrediction)
 
 <a name='additivesModelPrediction'></a>
-## In _additivesModelPrediction.py_, I used `Pynance` to retrieve stock data and `Prophet` for future 2 years prediction.
+# In _additivesModelPrediction.py_, I used `Pynance` to retrieve stock data and `Prophet` for future 2 years prediction.
 * Key Insights include:
   1. Predicting interested ticker potential market cap:
      
@@ -18,5 +18,7 @@
 
 
 <a name='ARIMAModelPrediction'></a>
+# The project is forecasting sale using Autoregressive Integrated Moving Average (ARIMA) model
+`ARIMA(p, d, q)` encompass seasonality, trend, and noise respectively.
 
 [Back 2 table](#back2table)
