@@ -60,11 +60,11 @@
     ```
 
   2. Diagnose ARIMA models' fit and residual:
-     <img width="818" alt="image" src="https://github.com/Pinghsuanlin/PythonScopedSkills/assets/96319356/c090a201-f387-46bb-b8a8-5ce9c09aad40">
+     <img width="700" alt="image" src="https://github.com/Pinghsuanlin/PythonScopedSkills/assets/96319356/c090a201-f387-46bb-b8a8-5ce9c09aad40">
 
 
   3. Validate forecast's accuracy (cf. estimated and real data:
-     <img width="818" alt="image" src="https://github.com/Pinghsuanlin/PythonScopedSkills/assets/96319356/df03638c-bd37-486e-b537-baa377d21146">
+     <img width="400" alt="image" src="https://github.com/Pinghsuanlin/PythonScopedSkills/assets/96319356/df03638c-bd37-486e-b537-baa377d21146">
 
 
 [Back 2 table](#back2table)
