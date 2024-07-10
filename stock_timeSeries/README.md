@@ -1,7 +1,8 @@
 <a name='back2table'></a>
 ## Table of Content:
 * [Prophet Additive Model Prediction](#additivesModelPrediction)</br>
-* [ARIMA Model Prediction](#ARIMAModelPrediction)
+* [ARIMA Model Prediction](#ARIMAModelPrediction)</br>
+* [Scrape S&P500 with bs4 and requests](#scrapeSP500)</br>
 
 <a name='additivesModelPrediction'></a>
 # In _additivesModelPrediction.py_, I used `Pynance` to retrieve stock data and `Prophet` for future 2 years prediction.
@@ -68,5 +69,35 @@
      
      <img width="400" alt="image" src="https://github.com/Pinghsuanlin/PythonScopedSkills/assets/96319356/df03638c-bd37-486e-b537-baa377d21146">
 
+
+[Back 2 table](#back2table)
+
+
+<a name='ARIMAModelPrediction'></a>
+# Scrape S&P500 with bs4 and requests
+Key syntax: 
+  ```{Python}
+  import requests
+  import yfinance as yf
+  import datetime
+  
+  #----Read all tickers’ stocks belonging to the S&P500 
+  #visit the interested page for list of 500 companies
+  resp = requests.get('https://en.wikipedia.org/wiki/List_of_S%26P_500_companies')
+  #create a BeautifulSoup object that parse HTML the way a web browser
+  soup = bs.BeautifulSoup(resp.text, 'lxml')
+  #inspect element and look for the table
+  table = soup.find('table', {'class': 'wikitable sortable'})
+  
+  
+  #---Store them in a list
+  #create an empty list 
+  tickers = []
+  #populate it using for loop by which we iterate through the table
+  for row in table.findAll('tr')[1:]:
+      ticker = row.findAll('td')[0].text
+      tickers.append(ticker)
+  print(tickers)
+  ```
 
 [Back 2 table](#back2table)
