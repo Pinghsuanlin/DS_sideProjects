@@ -121,10 +121,10 @@ ax.plot(smoothed[:, 0], smoothed[:, 1], c='k')
 pylab.autoscale(enable=True, axis='x', tight=True)
 ```
 
-Output:
+Output:</br>
 <img width="528" alt="image" src="https://github.com/user-attachments/assets/aa4ba2fb-af8e-4573-8679-11291ee9d116">
 
 
-
+[Back 2 table](#back2table)
 
 
