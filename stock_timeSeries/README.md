@@ -3,6 +3,7 @@
 * [Prophet Additive Model Prediction](#additivesModelPrediction)</br>
 * [ARIMA Model Prediction](#ARIMAModelPrediction)</br>
 * [Scrape S&P500 with bs4 and requests](#scrapeSP500)</br>
+* [Locally Weighted Scatterplot Smoothing (LOWESS) Fitting](#lowessFit)</br>
 
 <a name='additivesModelPrediction'></a>
 # In _additivesModelPrediction.py_, I used `Pynance` to retrieve stock data and `Prophet` for future 2 years prediction.
@@ -101,3 +102,29 @@ Key syntax:
   ```
 
 [Back 2 table](#back2table)
+
+<a name='lowessFit'></a>
+# Locally Weighted Scatterplot Smoothing Fitting
+Unlike linear, stepwise or other regression model, LOWESS is a **_non-parametric_** regression that fits a smooth curve to a set of points without assuming any particular functional form for the relationship between variables. It's suitable for data with *periodicity* and *volatility*.</br>
+
+Key syntax:
+```{Python}
+from statsmodels.nonparametric.smoothers_lowess import lowess
+
+# compute a lowesss smoothing estimate of the data (using `statsmodels`)
+smoothed = sm.nonparametric.lowess(exog=x, endog=y, frac=0.2)
+
+# plot the fit line
+fig, ax = pylab.subplots()
+ax.scatter(x, y)
+ax.plot(smoothed[:, 0], smoothed[:, 1], c='k')
+pylab.autoscale(enable=True, axis='x', tight=True)
+```
+
+Output:
+<img width="528" alt="image" src="https://github.com/user-attachments/assets/aa4ba2fb-af8e-4573-8679-11291ee9d116">
+
+
+
+
+
