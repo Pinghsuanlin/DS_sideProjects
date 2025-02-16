@@ -3,11 +3,11 @@
   * Regression
 
 * Techniques: Backtesting optimization
-* Trading Strategies: 50-day Moving Average (medium-term trend indicator), Pairs Trading, Bollinger Bands, Loss-Decreasing Strategies 
-* Source: yahoo finance `yfinance`
+* Trading Strategies: Percent Change, 50-day Moving Average (medium-term trend indicator), Pairs Trading, Bollinger Bands, Loss-Decreasing Strategies 
+* Source: [yahoo finance](https://finance.yahoo.com) -> `yfinance`
 
-
-## Performance Metrics
+---
+### Performance Metrics
 | Metric | Meaning | How to interpret? |
 |:-------| :-------|:------------------|
 | Start & End Date| The first and last date of the backtest| The time period tested|
@@ -26,7 +26,7 @@ eg.
 
 
 
-## Trade-Specific Metrics
+### Trade-Specific Metrics
 | Metric | Meaning | How to interpret? |
 |:-------| :-------|:------------------|
 | Trades| The total number of trades executed| Too few means the strategy is inactive; too many means it's overtrading.|
