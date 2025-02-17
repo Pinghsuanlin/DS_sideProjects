@@ -7,6 +7,15 @@
 * Source: [yahoo finance](https://finance.yahoo.com) -> `yfinance`
 
 ---
+# Project 1. Percent Change Backtesting with Classification & Regression Models
+* Appraoches: `pct_change(-1) * 100 * -1` to calculate the difference from the next day, `backtesting` to evaluate the model performance, `pickle` to save the model objects and `scikit-learn`'s `DecisionTreeRegressor`, `DecisionTreeClassifier` for modeling
+* backtesting output:
+![image](https://github.com/user-attachments/assets/a6268db5-11d3-4258-b387-37c3e8eb94ef)
+Zomming in:
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/81b7ef90-bbe4-419d-849b-7c2eb1ae9f14" />
+
+
+---
 ### Performance Metrics
 | Metric | Meaning | How to interpret? |
 |:-------| :-------|:------------------|
