@@ -6,7 +6,7 @@ Here include some of my work applying data analytics and modeling skills to real
 * In `statisticalAnalysis` folder, I utilized Bayesian methodology with baseline uncertainty to predict 2024 US presidential election. Web scraping and regex techniques are used to access past 2020 election and most recent state-by-state polling data.
 * In `optimization` folder, I did a few projects to find the optimal price, explore resource & inventory allocation.
   * Appraoches: KNN-Nearest Clustering, Bayesian Modeling (MCMC), Jupyter Widget, Feature Engingeer and Label Encoding
-* In `algoTrading` folder, I played with different trading stratgies with regression, classification models, and used backtesting to evaluate model and trading performance.
+* In `algoTrading` folder, I played with different trading stratgies with **regression, classification** models to predict the likelihood and probability of price going up or down, and used **backtesting** to evaluate model and trading performance with different trading frequency. Then used **Walk-Forward Validation** to train and test a model.
 
 Plase feel free to reach out ([myLinkedIn](https://linkedin.com/in/pinghsuanlin)) if you have any questions. 
 
