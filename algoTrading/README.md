@@ -2,7 +2,7 @@
   * Classification: Decision Tree, Random Fores
   * Regression
 
-* Techniques: Backtesting optimization
+* Techniques: Backtesting optimization, Walk-Forward Validation (WFV) 
 * Trading Strategies: Percent Change, 50-day Moving Average (medium-term trend indicator), Pairs Trading, Bollinger Bands, Loss-Decreasing Strategies 
 * Source: [yahoo finance](https://finance.yahoo.com) -> `yfinance`
 
